@@ -1,0 +1,73 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 9pt;
+  
+}
+
+.rowClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  margin:1px;
+  text-align: center;
+  height: 10em;
+  padding: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.myClass {
+  text-shadow: 1px 1px 2px black;
+  font-weight: bolder;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  padding-top: 1%;
+  height: 4em;
+}
+
+
+
+#gameStart {
+  align-items: center;
+  margin: auto;
+  width: 15%;
+  padding: 10px;
+  display: block;
+  position: absolute;
+  right: 43%;
+  font-size: x-large;
+}
+
+#jeopardyIntro {
+  text-align: center;
+  font-size: 70px;
+  
+}
+
+.spinner-border {
+  margin-top: 5%;
+  font-size: xx-large;
+  width: 5rem;
+  height: 5rem;
+}
